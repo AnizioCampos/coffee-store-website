@@ -86,3 +86,15 @@ footer {
     padding: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    /* Styles for screens smaller than 768px (e.g., tablets and mobile devices) */
+    header {
+        padding: 10px;
+    }
+    .product {
+        width: 45%; /* Adjusted width for smaller screens */
+        margin: 10px;
+    }
+}
+
+
