@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Default font */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f1e3; /* Light beige */
+    color: #3e2723; /* Brown */
+}
+
+header {
+    background-color: #d7ccc8; /* Light brown */
+    color: #3e2723; /* Brown */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 20px;
+}
+
+.product {
+    width: 100%; /* Adjusted width for responsiveness */
+    max-width: 300px; /* Added max-width for better scalability */
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #ffccbc; /* Light orange-pink */
+    color: #3e2723; /* Brown */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #ffab91; /* Darker orange-pink on hover */
+}
+
+footer {
+    background-color: #d7ccc8; /* Light brown */
+    color: #3e2723; /* Brown */
+    text-align: center;
+    padding: 20px;
+}
+
